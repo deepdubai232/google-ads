@@ -22,10 +22,10 @@ const VIP_CONFIG = {
     heading: "BABA SYNDICATE DUBAI",
 
     // Badge
-    badgeText: "VIP CHANNEL",
+    badgeText: "Free CHANNEL",
 
     // Description
-    description: "Accurate Analysis • Match Update • Right Prediction",
+    description: "Match Analysis • Match Update • Match Update",
 
     // Button Text
     buttonText: "JOIN TELEGRAM FOR NEW UPDATE",
