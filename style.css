@@ -576,29 +576,25 @@ font-size:18px;
 ========================= */
 
 .footer{
-    width:100%;
+    margin-top:25px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,.2);
+    background:transparent;
     text-align:center;
-    padding:25px 15px;
-    margin-top:60px;
-
-    border-top:1px solid rgba(255,255,255,.15);
-
-    background:rgba(0,0,0,.35);
-    backdrop-filter:blur(10px);
-
-    color:#bdbdbd;
-    font-size:14px;
 }
 
 .footer p{
-    margin-bottom:12px;
+    margin-top:15px;
+    margin-bottom:0;
+    color:#bdbdbd;
+    font-size:13px;
 }
 
 .footer-links{
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:12px;
+    gap:10px;
     flex-wrap:wrap;
 }
 
@@ -606,6 +602,7 @@ font-size:18px;
     color:#FFD700;
     text-decoration:none;
     font-weight:600;
+    font-size:14px;
     transition:.3s;
 }
 
@@ -616,11 +613,12 @@ font-size:18px;
 .footer-links span{
     color:#777;
 }
+
 @media (max-width:768px){
 
 .footer{
-    padding:20px 10px;
-    font-size:13px;
+    margin-top:20px;
+    padding-top:15px;
 }
 
 .footer-links{
@@ -629,6 +627,12 @@ font-size:18px;
 
 .footer-links a{
     font-size:13px;
+}
+
+.footer p{
+    font-size:12px;
+}
+
 }
 
 }
