@@ -7,23 +7,16 @@ font-family:'Poppins',sans-serif;
 
 
 body{
+    margin:0;
+    padding:20px;
+    min-height:100vh;
 
-margin:0;
-padding:20px;
+    background:#030303;
 
-min-height:100vh;
+    overflow-x:hidden;
+    overflow-y:auto;
 
-display:flex;
-justify-content:center;
-align-items:flex-start;
-
-background:#030303;
-
-overflow-x:hidden;
-overflow-y:auto;
-
-font-family:'Poppins',sans-serif;
-
+    font-family:'Poppins',sans-serif;
 }
 
 
