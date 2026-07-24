@@ -10,7 +10,7 @@ const VIP_CONFIG = {
     loaderText: "BABA SYNDICATE DUBAI",
 
     // Telegram Link
-    telegramLink: "https://www.betway365.site/sign-up?af_code=AFF6a5256bfee783",
+    telegramLink: "https://t.me/+jvoNmInJGlFlZWVl",
 
     // Profile Image
     profileImage: "profile.jpg",
