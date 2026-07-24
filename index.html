@@ -10,6 +10,21 @@
 
   gtag('config', 'AW-18186576318');
 </script>
+    <!-- Event snippet -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18186576318/_Dn6CLb77NUcEL7DhOBD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 <script src="config.js"></script>
 
 <link rel="stylesheet" href="animation.css">
