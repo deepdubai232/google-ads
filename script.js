@@ -287,8 +287,14 @@ glow=!glow;
 
 const button = document.getElementById("join-btn");
 
-button.addEventListener("click", () => {
+button.addEventListener("click", function(e) {
+
+    e.preventDefault();
+
     document.getElementById("btn-text").innerText = "OPENING TELEGRAM...";
+
+    gtag_report_conversion(VIP_CONFIG.telegramLink);
+
 });
 
 
