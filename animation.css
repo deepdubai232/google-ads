@@ -1,0 +1,223 @@
+
+/* ==========================
+   DEEP DUBAI VIP ANIMATIONS
+   ========================== */
+
+
+/* Gold Shine Effect */
+
+.gold-shine{
+
+background:linear-gradient(
+90deg,
+#fff,
+gold,
+#fff
+);
+
+background-size:200%;
+
+animation:shine 3s infinite;
+
+}
+
+
+@keyframes shine{
+
+0%{
+
+background-position:-200%;
+
+}
+
+100%{
+
+background-position:200%;
+
+}
+
+}
+
+
+
+
+
+/* Floating Animation */
+
+.float{
+
+animation:floatUp 4s ease-in-out infinite;
+
+}
+
+
+@keyframes floatUp{
+
+
+0%{
+
+transform:translateY(0);
+
+}
+
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+
+100%{
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+/* Neon Text */
+
+.neon-text{
+
+
+color:#fff;
+
+text-shadow:
+
+0 0 5px gold,
+
+0 0 15px gold,
+
+0 0 30px orange;
+
+
+animation:neon 2s infinite;
+
+
+}
+
+
+
+@keyframes neon{
+
+
+50%{
+
+text-shadow:
+
+0 0 15px orange,
+
+0 0 40px gold;
+
+}
+
+
+}
+
+
+
+
+
+/* Button Shine */
+
+.join-btn::before{
+
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:-100%;
+
+width:60%;
+
+height:100%;
+
+
+background:
+
+linear-gradient(
+
+120deg,
+
+transparent,
+
+rgba(255,255,255,.5),
+
+transparent
+
+);
+
+
+animation:buttonLight 3s infinite;
+
+
+}
+
+
+
+@keyframes buttonLight{
+
+
+100%{
+
+left:150%;
+
+}
+
+
+}
+
+
+
+
+
+/* VIP Border Animation */
+
+
+.card{
+
+
+animation:
+
+cardGlow 4s infinite alternate;
+
+
+}
+
+
+
+@keyframes cardGlow{
+
+
+from{
+
+
+box-shadow:
+
+0 0 20px rgba(255,215,0,.2);
+
+
+}
+
+
+to{
+
+
+box-shadow:
+
+0 0 50px rgba(255,215,0,.6);
+
+
+}
+
+
+}
